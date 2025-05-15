@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>生活</title>
+  <link rel="icon" href="images/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css" type="text/css" />
+  <style>
+    .center_left {
+      background: white;
+      padding: 20px;
+    }
+
+    .center_nav {
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    .center_nav a {
+      display: inline-block;
+      padding: 10px 15px;
+      border: 1px solid rgb(111, 100, 100);
+      border-radius: 10px;
+      background: rgb(99, 91, 91);
+      margin-right: 10px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .center_left p {
+      line-height: 35px;
+    }
+
+    .center_left a:hover {
+      background: pink;
+    }
+
+    .center_left img {
+      height: 400px;
+      background-size: 100% 100%;
+    }
+
+    .center_active {
+      background: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <!-- 头部 -->
+    <header class="header">
+      <div class="header_logo">
+        <img src="./images/banner.jpg">
+        <div><span>五组-</span>博客主页</div>
+      </div>
+      <div class="header_rigth">
+        <p>人生，</p>
+        <p>就像一盒巧克力，</p>
+        <p> 你永远不知道下一块会是什么味道！</p>
+        <p>---《阿甘正传》</p>
+      </div>
+    </header>
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li>主页</li>
+        </a>
+        <a href="blog.html">
+          <li>博文</li>
+        </a>
+        <a class="active" href="life.html">
+          <li>生活</li>
+        </a>
+        <a href="comment.html">
+          <li>留言板</li>
+        </a>
+        <a href="about.html">
+          <li>关于我们</li>
+        </a>
+      </ul>
+    </nav>
+    <!-- banner -->
+    <img class="banner" src="./images/bg/21.jpg">
+    <!-- 主内容区 -->
+    <div class="center">
+      <div class="center_left">
+        <div class="center_nav">
+          <a href="./life/album.html">
+            我们的相册
+          </a>
+          <a href="./life/works.html">我们的作品</a>
+          <a href="./life/movies.html">影视推荐</a>
+        </div>
+        <!--  -->
+        <h2>
+          热爱生活，是一种能力
+        </h2>
+        <p>
+          &#12288;&#12288;汪曾祺说：我们，都是过客。
+          这一生，行过的桥，走过的路，看过的风景，爱
+          过的人都是一辈子最宝贵的财富。
+          我们要热爱这一切，温暖地爱着，认真地生活。
+          生活总有平凡琐碎，总有难以迈越的坎，总有不
+          为人知的心酸。
+          热爱生活也是一种勇气，不管能力还是勇气心
+          力，都是可以锻炼的，像锻炼肌肉一样的练起
+          来，相信未来一切会更好~
+        </p>
+        <img src="./images/bg/25.jpg">
+      </div>
+      <div class="center_rigth">
+        <div class="user">
+          <img src="./images/bg/46.jpg">
+          <h3>五组&nbsp;</h3>
+          <p>娱乐至死</p>
+          <div class="user_tag">
+            <div>
+              <p>文章</p>
+              <p>10</p>
+            </div>
+            <div>
+              <p>标签</p>
+              <p>10</p>
+            </div>
+            <div>
+              <p>分类</p>
+              <p>10</p>
+            </div>
+          </div>
+        </div>
+        <div class="notice">
+          <h3>公告</h3>
+          <p>欢迎参观我们的博客</p>
+        </div>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bottom">
+      <h3>五组-博客主页</h3>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</body>
+<script src="./javascript/index.js"></script>
+
+</html>

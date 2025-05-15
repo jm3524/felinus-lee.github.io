@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>留言板</title>
+  <link rel="icon" href="images/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css" type="text/css" />
+  <style>
+    .comment_title {
+      padding: 20px;
+      background-color: white;
+    }
+
+    .comment_title2 {
+      margin: 30px 20px;
+      font-size: 13px;
+    }
+
+    .comment_input {
+      padding: 20px;
+      background-color: white;
+
+    }
+
+    input {
+      border: 0px;
+      outline: none;
+    }
+
+    .input {
+      line-height: 40px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .input2 {
+      height: 200px;
+      position: relative;
+    }
+
+    .but {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 5px 10px;
+      background: #eee;
+      text-align: center;
+      border-radius: 15px;
+      font-size: 13px;
+    }
+
+    .item {
+      margin: 10px 0;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .item_user {
+      display: flex;
+      align-items: center;
+    }
+
+    .item_title {
+      margin: 10px 0;
+    }
+
+    .item_user img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .item span {
+      font-size: 13px;
+      color: rgb(225, 221, 221);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <!-- 头部 -->
+    <header class="header">
+      <div class="header_logo">
+        <img src="./images/banner.jpg">
+        <div><span>五组-</span>博客主页</div>
+      </div>
+      <div class="header_rigth">
+        <p>人生，</p>
+        <p>就像一盒巧克力，</p>
+        <p> 你永远不知道下一块会是什么味道！</p>
+        <p>---《阿甘正传》</p>
+      </div>
+    </header>
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li>主页</li>
+        </a>
+        <a href="blog.html">
+          <li>博文</li>
+        </a>
+        <a href="life.html">
+          <li>生活</li>
+        </a>
+        <a class="active" href="comment.html">
+          <li>留言板</li>
+        </a>
+        <a href="about.html">
+          <li>关于我们</li>
+        </a>
+      </ul>
+    </nav>
+    <!-- banner -->
+    <img class="banner" src="./images/bg/comment.jpg">
+    <!-- 主内容区 -->
+    <div class="center">
+      <div class="center_left">
+        <div class="comment_title">
+          <h2>留言板</h2>
+          <p>有什么话想对我们说~</p>
+        </div>
+        <p class="comment_title2">留言列表</p>
+        <div class="comment_input">
+          <input class="input" type="text" placeholder="姓名">
+          <input class="input" type="text" placeholder="电子邮箱">
+          <input class="input" type="text" placeholder="联系方式"><br>
+          <div class="input2">
+            <input type="text" placeholder="在这里写下你的评论">
+            <div class="but">发表评论</div>
+          </div>
+        </div>
+        <!-- 留言列表 -->
+        <div class="item">
+          <div class="item_user">
+            <img src="./images/bg/37.jpg">
+            <p>王大拿</p>
+          </div>
+          <p class="item_title ">寒来暑往，秋收东藏，希望我们来日方长</p>
+          <span> 2023.12.11</span>
+        </div>
+        <div class="item">
+          <div class="item_user">
+            <img src="./images/bg/20.jpg">
+            <p>科恩曾</p>
+          </div>
+          <p class="item_title ">万物皆有裂痕，那是光照进来的地方</p>
+          <span> 2025.05.20</span>
+        </div>
+        <div class="item">
+          <div class="item_user">
+            <img src="./images/bg/22.jpg">
+            <p>余华</p>
+          </div>
+          <p class="item_title ">生活是属于自己的，每个人自己的感受，不属于任何人的看法</p>
+          <span> 2025.05.20</span>
+        </div>
+        <div class="item">
+          <div class="item_user">
+            <img src="./images/bg/33.jpg">
+            <p>牙不疼</p>
+          </div>
+          <p class="item_title ">你最近还好吗</p>
+          <span> 2025.05.20</span>
+        </div>
+      </div>
+      <div class="center_rigth">
+        <div class="user">
+          <img src="./images/bg/46.jpg">
+          <h3>五组&nbsp;</h3>
+          <p>娱乐至死</p>
+<div class="user_tag">
+          <div>
+              <p>文章</p>
+              <p>10</p>
+            </div>
+            <div>
+              <p>标签</p>
+              <p>10</p>
+            </div>
+            <div>
+              <p>分类</p>
+              <p>10</p>
+            </div>
+          </div>
+        </div>
+        <div class="notice">
+          <h3>公告</h3>
+          <p>欢迎参观我们的博客</p>
+        </div>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bottom">
+      <h3>五组-博客主页</h3>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</body>
+<script src="./javascript/index.js"></script>
+
+</html>
